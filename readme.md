@@ -8,9 +8,6 @@ NPChain is a demo project that combines:
 - **An Express backend** that drives the NPC “brain” and orchestrates storage.
 - **BNB Greenfield** for storing interaction/memory JSON objects.
 - **BSC smart contracts** for storing/updating NPC traits and anchoring memory hashes on-chain.
-
-![NPChain](./background.jpg)
-
 ---
 
 ## Table of Contents
@@ -356,30 +353,3 @@ After deployment:
 
 - **LLM errors**
   - Ensure `GROQ_API_KEY` is set.
-
----
-
-## Security Notes
-
-- **Never commit secrets**
-  - Do not commit `backend/.env`, `.env`, `.secret`, private keys, mnemonics, or API keys.
-- **If any secrets were committed previously**
-  - Rotate them immediately and purge them from Git history.
-
----
-
-## Contributing
-
-Pull requests are welcome.
-
-- Keep changes focused.
-- Include reproduction steps for bug fixes.
-- Prefer adding minimal API examples when introducing new endpoints.
-
----
-
-## License
-
-No license file is currently included in this repository.
-
-If you plan to publish this project, add a `LICENSE` file (common choice: MIT) and update this section.
